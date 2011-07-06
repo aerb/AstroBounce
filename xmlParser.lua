@@ -48,10 +48,8 @@ function collect(s)
 end
 
 function collectFromFile(xmlFileName)
-	local hFile = io.open(xmlFileName,"r");
 	if (not err) then
-		local xmlText=hFile:read("*a");
-		io.close(hFile);
+		local xmlText=love.filesystem.read( xmlFileName );
         return collect(xmlText);
 	else
 		return nil,err;

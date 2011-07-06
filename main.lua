@@ -53,9 +53,7 @@ function love.load()
   characterImageJump = love.graphics.newImage("data/images/cjump.png")
   characterHeadImage = love.graphics.newImage("data/images/head.png")
   
-  
-
-  local pXml = collectFromFile("/Users/adamerb/Documents/2010Fall/Games/levels.xml")
+  local pXml = collectFromFile("data/levels.xml")
   print(pXml[1])
   t=pXml[2]
   for i,v in ipairs(t) do 
