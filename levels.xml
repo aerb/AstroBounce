@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+	<behind>
+		<planet id="0" posx="0" posy="400" radius="100"/>
+		<planet id="0" posx="300" posy="600" radius="50"/>
+		<planet id="0" posx="200" posy="100" radius="150"/>
+		<planet id="0" posx="300" posy="400" radius="100"/>
+		<planet id="0" posx="600" posy="600" radius="50"/>
+		<planet id="0" posx="600" posy="300" radius="150"/>
+	</behind>
+	<planet id="0" posx="-300" posy="-300" radius="200"/>
+	<planet id="0" posx="600" posy="600" radius="100"/>
+	<planet id="0" posx="200" posy="100" radius="250"/>
+	<planet id="0" posx="800" posy="800" radius="50"/>
+
+	<planet id="0" posx="1100" posy="1100" radius="200"/>
+	<infront>
+		<planet id="0" posx="300" posy="400" radius="150"/>
+		<planet id="0" posx="600" posy="600" radius="40"/>
+		<planet id="0" posx="600" posy="300" radius="200"/>
+		<planet id="0" posx="100" posy="200" radius="150"/>
+		<planet id="0" posx="1000" posy="1000" radius="200"/>
+	</infront>
+</level>
